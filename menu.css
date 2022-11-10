@@ -1,9 +1,24 @@
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 10%;
-   }
-   li, a, button {
-    text-decoration: none;
-   }
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav>ul{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    list-style: none;
+}
+nav>ul>li{
+    display: block;
+    border-left: 2px solid black;
+    padding: 10px;
+}
+a:hover{
+    background-color: red;
+    color: white;    
+}
+nav{
+    display: grid;
+    grid-template-columns: 60% auto;
+    background-color: rgb(196, 186, 186);
+
+}
